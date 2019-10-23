@@ -1,15 +1,13 @@
-import React from 'react';
-import './App.css';
-import GridImages from './GridImages';
+import React from 'react'
+import './App.css'
+import GridImages from './components/GridImages/GridImages'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <GridImages></GridImages>
-      </header>
+    <div>
+      <GridImages></GridImages>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
