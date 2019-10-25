@@ -27,7 +27,6 @@ class GridImages extends Component {
       loaded: false,
       classes: ['loading']
     }))
-    console.log('images: ', images)
     this.setState({
       images
     })
@@ -35,6 +34,7 @@ class GridImages extends Component {
 
   componentDidMount () {
     this.getImagesFromApi()
+    console.log('env: ', process.env);
   }
 
   onLoadImage (img) {
